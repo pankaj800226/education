@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    /* height: 80px; */
+    /* background-image: linear-gradient(90deg, #fa5853, #f46692 50%, #ffc444); */
+   /* background-color: #151515; */
+}
+.navbar ul{
+    float: right;
+    list-style: none;
+  }
+  .navbar ul li{
+    display: inline-block;
+    margin: 28px 30px;
+font-size: 23px;
+  
+  }
+  .navbar ul li a{
+    color: white;
+    text-decoration: none;
+  }
+   .button a{
+    float: right;
+    margin: 34px -424px;
+    background: black;
+    padding: 9px 40px;
+    text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  }
+  .navbar p{
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: white;
+    padding: 28px 80px;
+display: inline flow-root list-item;
+
+  }
+  .navbar p:hover{
+    color: black;
+  }
+  .navbar p{
+    transition: 0.6s ease;
+  }
+  .navbar ul li a:hover{
+    color: black;
+  }
+  .navbar ul li a{
+    transition: 0.6s ease;
+  }
+  .button a:hover{
+    background-color: pink;
+    color: black;
+
+  }
+  .button a{
+    transition: 0.6s ease;
+  }
+  body{
+    background-image: url('girl.jpg');
+    background-size: cover;
+  }
+  .text h1{
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 175px;
+    color: #fa5853;
+  }
+  .images img{
+    height: 200px;
+border-radius: 100px;
+display: flex;
+margin: -170px 475px;
+  }
+  footer{
+    
+  }
